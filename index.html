@@ -9,19 +9,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./plugin/vue.css">
   <!-- 暗黑 -->
-  <!-- <link rel="stylesheet" href="./plugin/style.min.css"> -->
+  <link rel="stylesheet" href="./plugin/style.min.css">
 
   <!-- 箭头 -->
   <!-- <link rel="stylesheet" href="./plugin/sidebar.min.css"> -->
   <!-- 文件夹样式 -->
-  <!-- <link rel="stylesheet" href="./plugin/sidebar-folder.min.css"> -->
+  <link rel="stylesheet" href="./plugin/sidebar-folder.min.css">
 </head>
 
 <body>
-  <!-- <nav>
-    <a href="#/">EN</a>
-    <a href="#/zh-cn/">中文</a>
-  </nav> -->
+
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -29,18 +26,17 @@
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
       },
-      repo: '',
-      // corner: {
-      //   url: "https://github.com/chaoyang915506",
-      //   // you can set the image link here  
-      //   icon: "./plugin/推荐.png",
-      //   // the size of the image  
-      //   width: 80,
-      //   height: 80
-      // },
+      repo: 'true',
+      corner: {
+        url: "https://github.com/chaoyang915506",
+        // you can set the image link here  
+        icon: "./plugin/推荐.png",
+        // the size of the image  
+        width: 80,
+        height: 80
+      },
       themeColor: "#42b983",// this is the default 'vue' color
       name: '',
-      // repo: '',
       search: {
         paths: 'auto',
         placeholder: '搜索',
@@ -54,23 +50,23 @@
         language: 'chinese'
       },
       // 暗黑
-      // darkMode: {
-      //   light: {
-      //     background: "white",
-      //     toggleBtnBg: "var(--theme-color)",
-      //     textColor: "var(--theme-color)"
-      //   },
-      //   dark: {
-      //     background: "#1c2022",
-      //     toggleBtnBg: "#34495e",
-      //     textColor: "#b4b4b4"
-      //   },
-      // },
-      // timeUpdater: {
-      //   text: ">最后更新时间: {docsify-updated}",
-      //   formatUpdated: "{YYYY}/{MM}/{DD}",
-      //   whereToPlace: "bottom",  // "top" or "bottom", default to "bottom"
-      // },
+      darkMode: {
+        light: {
+          background: "white",
+          toggleBtnBg: "var(--theme-color)",
+          textColor: "var(--theme-color)"
+        },
+        dark: {
+          background: "#1c2022",
+          toggleBtnBg: "#34495e",
+          textColor: "#b4b4b4"
+        },
+      },
+      timeUpdater: {
+        text: ">最后更新时间: {docsify-updated}",
+        formatUpdated: "{YYYY}/{MM}/{DD}",
+        whereToPlace: "bottom",  // "top" or "bottom", default to "bottom"
+      },
 
     }
   </script>
@@ -88,18 +84,18 @@
   <script src="./plugin/prism-php.min.js"></script>
 
   <!-- 分页导航插 -->
-  <!-- <script src="./plugin/docsify-pagination.min.js"></script> -->
+  <script src="./plugin/docsify-pagination.min.js"></script>
 
   <!-- 暗黑 -->
-  <!-- <script src="./plugin//index.min.js"></script> -->
+  <script src="./plugin//index.min.js"></script>
 
   <!-- 左侧的文件夹 -->
-  <!-- <script src="./plugin/docsify-sidebar-collapse.min.js"></script> -->
+  <script src="./plugin/docsify-sidebar-collapse.min.js"></script>
 
   <!-- docs 右上角的文档 -->
-  <!-- <script src="./plugin/docsify-corner.min.js"></script> -->
+  <script src="./plugin/docsify-corner.min.js"></script>
 
-  <!-- <script src="./plugin/time-updater.min.js"></script> -->
+  <script src="./plugin/time-updater.min.js"></script>
 </body>
 
 </html>
