@@ -53,8 +53,8 @@ var css = `
 }
 button[onclick="docsifyDarkSwitcher()"] {
     position: absolute;
-    right: -10px;
-    top: -15px;
+    right: 30px;
+    top: -20px;
     border: none;
     cursor: pointer;
     width: var(--dark-icon-size);
